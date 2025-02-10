@@ -1,0 +1,39 @@
+{
+  "loading": "Cargando...",
+  "continue": "Continuar",
+  "auth": {
+    "enterAlias": "Ingresa tu alias",
+    "aliasMinLength": "El alias debe tener al menos 6 caracteres",
+    "aliasInUse": "Alias ya en uso"
+  },
+  "navigation": {
+    "browse": "Explorar Discos",
+    "cart": "Carrito",
+    "logout": "Cerrar Sesión"
+  },
+  "filters": {
+    "artists": "Artistas",
+    "labels": "Sellos",
+    "styles": "Estilos",
+    "clearAll": "Limpiar Todo"
+  },
+  "record": {
+    "condition": {
+      "mint": "Mint",
+      "nearMint": "Near Mint",
+      "veryGoodPlus": "Very Good Plus",
+      "veryGood": "Very Good"
+    },
+    "reserve": "Reservar",
+    "reserved": "Reservado",
+    "joinQueue": "Unirse a Cola",
+    "inQueue": "En Cola"
+  },
+  "cart": {
+    "empty": "Tu carrito está vacío",
+    "total": "Total",
+    "checkout": "Finalizar",
+    "clear": "Vaciar Carrito",
+    "coordinatePickup": "Coordinar Retiro"
+  }
+}

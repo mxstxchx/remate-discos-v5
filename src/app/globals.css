@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 9%;
+    --card: 0 0% 10%;
+    --muted: 0 0% 25%;
+    --border: 0 0% 15%;
+    --primary: 47 63% 52%;
+    --primary-dark: 47 57% 41%;
+  }
+
+  html {
+    @apply antialiased;
+  }
+
+  body {
+    @apply font-sans text-gray-100;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+
+  code, pre {
+    @apply font-mono;
+  }
+}
+
+@layer components {
+  .record-card {
+    @apply bg-card border border-border rounded-lg overflow-hidden;
+  }
+
+  .record-image {
+    @apply aspect-square object-cover;
+  }
+
+  .condition-badge {
+    @apply px-2 py-1 rounded text-xs font-medium;
+  }
+  
+  .condition-badge-mint {
+    @apply bg-status-success/10 text-status-success;
+  }
+  
+  .condition-badge-near-mint {
+    @apply bg-status-info/10 text-status-info;
+  }
+  
+  .condition-badge-vg-plus {
+    @apply bg-primary/10 text-primary;
+  }
+  
+  .condition-badge-vg {
+    @apply bg-gray-500/10 text-gray-500;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap-balance: balance;
+  }
+}

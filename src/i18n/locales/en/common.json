@@ -1,0 +1,39 @@
+{
+  "loading": "Loading...",
+  "continue": "Continue",
+  "auth": {
+    "enterAlias": "Enter your alias",
+    "aliasMinLength": "Alias must be at least 6 characters",
+    "aliasInUse": "Alias already in use"
+  },
+  "navigation": {
+    "browse": "Browse Records",
+    "cart": "Cart",
+    "logout": "Log Out"
+  },
+  "filters": {
+    "artists": "Artists",
+    "labels": "Labels",
+    "styles": "Styles",
+    "clearAll": "Clear All"
+  },
+  "record": {
+    "condition": {
+      "mint": "Mint",
+      "nearMint": "Near Mint",
+      "veryGoodPlus": "Very Good Plus",
+      "veryGood": "Very Good"
+    },
+    "reserve": "Reserve",
+    "reserved": "Reserved",
+    "joinQueue": "Join Queue",
+    "inQueue": "In Queue"
+  },
+  "cart": {
+    "empty": "Your cart is empty",
+    "total": "Total",
+    "checkout": "Checkout",
+    "clear": "Clear Cart",
+    "coordinatePickup": "Coordinate Pickup"
+  }
+}
